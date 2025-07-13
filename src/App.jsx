@@ -5,13 +5,15 @@ import { Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard'
 import Schedule from './pages/Schedule'
 import Resources from './pages/Resources'
-import Community from './pages/community'
+
 import Courses from './pages/Courses';
 
 import Settings from './pages/Settings';
 
+import Social from './pages/Social';
+
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
 
@@ -28,7 +30,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/resources" element={<Resources />} />
-          <Route path="/community" element={<Community />} />
+          <Route path="/community" element={<Social />} />
           <Route path="/settings" element={<Settings />} />
          </Routes>
         </main>

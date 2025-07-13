@@ -1,8 +1,8 @@
-// src/pages/Community.jsx
+
 import React, { useState } from 'react';
 import { FaUsers, FaSearch, FaPlus, FaComment, FaThumbsUp, FaShare } from 'react-icons/fa';
 
-const Community = () => {
+const Social = () => {
   const [activeTab, setActiveTab] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
   
@@ -194,4 +194,4 @@ const Community = () => {
   );
 };
 
-export default Community;
+export default Social;
