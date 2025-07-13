@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-100 font-sans;
+}
+.sidebar {
+            scrollbar-width: thin;
+            scrollbar-color: #c5c5c5 transparent;
+        }
+        .sidebar::-webkit-scrollbar {
+            width: 5px;
+        }
+        .sidebar::-webkit-scrollbar-thumb {
+            background-color: #c5c5c5;
+            border-radius: 10px;
+        }
+        .progress-ring__circle {
+            transition: stroke-dashoffset 0.3s;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+        }
+        .course-card:hover .course-image {
+            transform: scale(1.03);
+        }
+        .live-badge {
+            animation: pulse 1.5s infinite;
+        }
